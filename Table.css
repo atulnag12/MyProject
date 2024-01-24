@@ -1,0 +1,75 @@
+/* Global Styles */
+body {
+    font-family: 'Arial', sans-serif;
+    margin: 0;
+    padding: 0;
+  }
+  
+  /* Container Styles */
+  .table-container {
+    max-width: 800px;
+    margin: auto;
+    padding: 20px;
+  }
+  
+  /* Table Styles */
+  .custom-table {
+    width: 100%;
+    border-collapse: collapse;
+    margin-top: 20px;
+  }
+  
+  .custom-table th, .custom-table td {
+    border: 1px solid #ddd;
+    padding: 8px;
+    text-align: left;
+  }
+  
+  .custom-table th {
+    background-color: #f2f2f2;
+  }
+  
+  /* Input and Button Styles */
+  .input-label {
+    display: block;
+    margin-bottom: 10px;
+  }
+  
+  .input-field {
+    width: 100%;
+    padding: 8px;
+    margin-top: 5px;
+    margin-bottom: 15px;
+    box-sizing: border-box;
+  }
+  
+  .add-row-container,
+  .manage-columns-container {
+    margin-top: 20px;
+  }
+  
+  .add-row-button,
+  .add-column-button,
+  edit-button,
+  delete-button,
+  update-button {
+    background-color: #4caf50;
+    color: white;
+    border: none;
+    padding: 10px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 16px;
+    margin-right: 10px;
+    cursor: pointer;
+  }
+  
+  .add-row-button:hover,
+  .add-column-button:hover,
+  edit-button:hover,
+  delete-button:hover,
+  update-button:hover {
+    background-color: #45a049;
+  }
+  
